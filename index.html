@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>UniVerse</title>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.googleapis.com/css2?family=K2D:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        
+        <div class="container">
+            <nav>
+                <ul>
+                    <li class="left">
+                        <a>HOME</a>
+                        <a>OUR SERVICES</a>
+                        <a>ABOUT US</a>
+                        <a>CONTACT</a>
+                    </li>
+                    <li class="center">
+                        <img src="images/LOGO.png" alt="logo"></li>
+                    </li>
+                    <li class="right">
+                        <a>SIGN IN</a>
+                        <a>SIGN UP</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="welcome">
+                <div class="left">
+                    <img src="images/main.png">
+                </div>
+                <div class="right">
+                    <p>Connect, Collaborate, and Conquer University Life!</p>
+                </div>
+            </div>
+            <div class="about">
+                <div class="text">
+                    <h1>ABOUT US</h1>
+                    <p><b>uniVerse</b> is a revolutionary social support network designed to connect university students through various means such as note sharing,
+                    video content, Q&A, study groups, mentorship and community creation. Out platform offers a user friendly interface tailored for enhancing 
+                    user engagement and fostering a sense of community among students.</p>
+                    
+                </div>
+                <img src="images/collab.jpg">
+            </div>
+            <div class="contact">
+                <h1>CONTACT US</h1>
+            </div>
+            <footer>
+                <p>Copyright © 2024 uniVerse. All Rights Reserved.</p>
+            </footer>
+        </div>
+        
+        <script>
+            window.addEventListener('scroll', function() {
+                const nav = document.querySelector('nav');
+                if (window.scrollY > window.innerHeight) { // 100vh = window.innerHeight
+                    nav.style.backgroundColor = 'transparent'; // Change to your desired color
+                    nav.style.color = '#4E815C'; // Change text color if needed
+                } else {
+                    nav.style.backgroundColor = 'rgba(255, 255, 255, 0.9)'; // Change back to transparent
+                    nav.style.color = '#4E815C'; // Change text color back if needed
+                }
+            });
+        </script>
+        
+    </body>
+</html>
