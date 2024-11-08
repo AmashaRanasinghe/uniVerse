@@ -95,6 +95,15 @@ hr {
 }
 
 .hero {
+  background-size: 25px 25px;
+  background-image: linear-gradient(to right, #abda37 0.1px, transparent 0.28px),
+    linear-gradient(to bottom, #abda37 0.1px, transparent 0.28px);
+  /* background-size: 25px 25px;
+  background-image: radial-gradient(
+    circle,
+    #abda37 0.1px,
+    rgba(0, 0, 0, 0) 1px
+  ); */
   padding: 2.5rem 3rem;
   background-color: var(--primary-green);
 }
@@ -295,6 +304,13 @@ p {
 }
 
 .join-section {
+  background-image: radial-gradient(#abda37 0.01px, transparent 0.9px);
+  background-size: 30px 30px;
+  mask-image: radial-gradient(
+    ellipse 100% 100% at 50% 50%,
+    #abda37 25%,
+    transparent 300%
+  );
   padding: 10rem 4rem;
   background-color: var(--primary-green);
   display: flex;
